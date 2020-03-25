@@ -5,9 +5,11 @@ public class Recieve extends Thread {
 	ServerSocket ss;
 	Socket s;
 	DataInputStream in;
+	String name;
 
-	Recieve(int port) throws Exception {
+	Recieve(int port, String name) throws Exception {
 		ss = new ServerSocket(port);
+		this.name = name;
 	}
 
 	public void run() {
@@ -19,7 +21,7 @@ public class Recieve extends Thread {
 			String msg = "";
 			while (!msg.equals("Over")) {
 				msg = in.readUTF();
-				System.out.println("\nUnknown : " + msg);
+				System.out.println("\n" + name + ": " + msg);
 				System.out.print("You: ");
 			}
 			ss.close();

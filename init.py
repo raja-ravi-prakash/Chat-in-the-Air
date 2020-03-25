@@ -93,3 +93,8 @@ print(Fore.BLUE+"\nEnter Partner Details: \n"+Fore.WHITE)
 partner()
 
 input("\n[*]Press any key to continue....")
+
+os.chdir("src")
+
+command = "java Message "+partner_ip+" "+partner_port+" "+port+" "+partner_name
+os.system(command)
