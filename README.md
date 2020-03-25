@@ -12,7 +12,7 @@ This thing connects two computers in a LAN network. so, they can communicate thr
 
 2.  **Host** and **Partner** needs to run this at the same because no chats are stored.....
 
-3.  If Anything goes wrong , Compile and Run the **Message.java** again .
+3.  If Anything goes wrong , Compile **Message.java** again in **src**.
 
 ## LICENSE
 
