@@ -6,8 +6,8 @@ public class Send extends Thread {
 	DataInputStream in;
 	DataOutputStream out;
 
-	Send(String ip, int port) throws Exception {
-		ac = new Socket(ip, port);
+	Send(String domain, int port) throws Exception {
+		ac = new Socket(domain, port);
 	}
 
 	public void run() {
