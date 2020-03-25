@@ -1,17 +1,18 @@
 # Networking through Java
 
-**-A Simple chatting Program (Command Line Interface)-**
-
 **CLI** Based networking between two computers.
 
 ## What's Going on
 
-This thing connects two computers in a LAN network. so, they can communicate through Text Messages..
+This thing connects two computers in a LAN network. so, they can communicate through Messages..
 
 **NOTE :**
 
-1.**Host** and **Partner** needs to run this at the same because no chats are stored.....
-2.If Anything goes wrong , Compile and Run the **Message.java** again .
+1.  Run **init.py**...
+
+2.  **Host** and **Partner** needs to run this at the same because no chats are stored.....
+
+3.  If Anything goes wrong , Compile and Run the **Message.java** again .
 
 ## LICENSE
 
