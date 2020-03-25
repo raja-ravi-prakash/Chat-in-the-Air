@@ -1,4 +1,4 @@
-# Networking through Java
+# Networking
 
 **CLI** Based networking between two computers.
 
