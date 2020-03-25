@@ -51,7 +51,7 @@ def partner():
     try:
         partner_name = str(soc.gethostbyaddr(partner_ip)[0].split(".")[0])
     except Exception as e:
-        print(e + " InValid IP")
+        print(str(e) + " InValid IP")
         quit()
 
     partnerDetails()
